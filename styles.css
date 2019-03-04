@@ -11,6 +11,6 @@ img, button {
 	background: hsl(0, 0%, 90%) !important;
 }
 
-@media (max-width: 768px) {
-
+hr {
+	border-width: 5px;
 }
