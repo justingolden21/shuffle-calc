@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shuffle Calc</title>
+
+<meta charset="utf-8">
+<meta name="title=" content="Shuffle Calc">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="a simple calculator for the number of shuffles necessary for a deck of cards">
+<meta name="keywords" content="shuffle, calculator, calc">
+<!-- <meta name="theme-color" content="hsl(0, 0%, 90%)">
+<meta name="msapplication-navbutton-color" content="hsl(0, 0%, 90%)">
+<meta name="apple-mobile-web-app-status-bar-style" content="hsl(0, 0%, 90%)">
+ --><link rel="shortcut icon" href="icon.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js"></script>
+
+</head>
+
+<body>
+<div class="text-center container">
+	<br>
+	<h3>Shuffle Calc</h3>
+	Number of cards:
+	<input id="num-cards" type="number" class="form-control form-control-lg">
+	Number of riffle shuffles:
+	<input id="num-shuffles" type="number" class="form-control form-control-lg">
+	Formula:
+	3/2 * Log<sub>2</sub>(n)
+</div>
+
+</body>
+</html>
