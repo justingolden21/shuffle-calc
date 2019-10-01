@@ -14,3 +14,6 @@ img, button {
 hr {
 	border-width: 5px;
 }
+#copied-url {
+	display: none;
+}

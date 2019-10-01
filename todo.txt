@@ -1,4 +1,1 @@
-add url params
-link to copy url
-disable output from user
 logo
